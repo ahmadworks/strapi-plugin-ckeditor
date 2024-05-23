@@ -29,6 +29,7 @@ import { StrapiMediaLib } from "./plugins/StrapiMediaLib";
 const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
   light: {
     plugins: [
+      window.CKEditor5.alignment.Alignment,
       window.CKEditor5.autoformat.Autoformat,
       window.CKEditor5.basicStyles.Bold,
       window.CKEditor5.basicStyles.Italic,
@@ -53,6 +54,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
     ],
     toolbar: [
       'undo', 'redo',
+      '|',
+      'alignment',
       '|',
       'heading',
       '|',
@@ -94,6 +97,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
 
   standard: {
     plugins: [
+      window.CKEditor5.alignment.Alignment,
       window.CKEditor5.autoformat.Autoformat,
       window.CKEditor5.basicStyles.Bold,
       window.CKEditor5.basicStyles.Italic,
@@ -122,6 +126,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
     ],
     toolbar: [
         'undo', 'redo',
+        '|',
+        'alignment',
         '|',
         'heading',
         '|',
