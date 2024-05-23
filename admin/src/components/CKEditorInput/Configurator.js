@@ -45,10 +45,6 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.list.List,
       window.CKEditor5.paragraph.Paragraph,
       window.CKEditor5.pasteFromOffice.PasteFromOffice,
-      window.CKEditor5.table.Table,
-      window.CKEditor5.table.TableToolbar,
-      window.CKEditor5.table.TableColumnResize,
-      window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
       StrapiMediaLib
     ],
@@ -61,7 +57,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       '|',
       'bold', 'italic',
       '|',
-      'link', 'strapiMediaLib', 'insertTable',
+      'link', 'strapiMediaLib',
       '|',
       'bulletedList', 'numberedList'
     ],
@@ -117,10 +113,6 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.mediaEmbed.MediaEmbed,
       window.CKEditor5.paragraph.Paragraph,
       window.CKEditor5.pasteFromOffice.PasteFromOffice,
-      window.CKEditor5.table.Table,
-      window.CKEditor5.table.TableToolbar,
-      window.CKEditor5.table.TableColumnResize,
-      window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
       StrapiMediaLib
     ],
@@ -133,7 +125,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'bold', 'italic',
         '|',
-        'link', 'strapiMediaLib', 'mediaEmbed', 'blockQuote', 'insertTable', 'codeBlock',
+        'link', 'strapiMediaLib', 'mediaEmbed', 'blockQuote', 'codeBlock',
         '|',
         'bulletedList', 'numberedList', 'outdent', 'indent'
     ],
